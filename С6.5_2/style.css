@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #81613cb2;
+}
+.container {
+    max-width: 90%;
+    margin: 20% auto;    
+    display: flex;
+    justify-content: center;
+}
+.btn {   
+    
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+    cursor: pointer;  
+    margin-bottom: 1em;
+    padding: 20px 30%;
+    border-radius: 1px;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: rgb(253, 253, 253);
+    background: #4a5a49;
+    transition: 0.3s;
+}
+    
+.btn:hover {
+box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+transform: scale(1.05);
+}
